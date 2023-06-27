@@ -6,16 +6,26 @@ body {
 }
 
 header {
-    background-color: white;
+    background-color: var(--bool-white);
     padding-bottom: 0.5rem;
     
 }
 :root {
-    --bool-lightgrey: #e8e8e8;
+    --bool-white: #ffffff;
+    --bool-lightgrey: #f6f8f9;
+    --bool-blue1: #47adf1;
+    --bool-blue2: #45abe9;
+    --bool-purple: #9c72e4;
+    --bool-green1: #64c0a8;
+    --bool-green2: #b0c926;
+    --bool-orange: #f29e33;
+    --bool-pink: #d863a0;
+    
 }
 
 img {
     margin: 1rem;
+
 }
 h1 {
     margin-left: 5rem;
@@ -23,7 +33,7 @@ h1 {
 }
 
 main {
-    background-color: white;
+    background-color: var(--bool-white);
     margin-top: 5rem;
     margin-left: 20%;
     margin-right: 20%;
