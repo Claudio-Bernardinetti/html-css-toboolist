@@ -66,7 +66,14 @@ input{
     margin-bottom: 0.8;
 }
 /* main and header main */
-
+.symbol_green{
+    color: green;
+    font-size: 1.2rem;
+}
+.symbol_red{
+    color: red;
+    font-size: 1.2rem;
+}
 #main>div{
     padding-left: 2rem;
     padding-top: 1rem;
