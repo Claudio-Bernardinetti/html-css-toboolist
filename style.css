@@ -2,6 +2,29 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: antiquewhite;
+    background-color: var(--bool-lightgrey);
 }
 
+header {
+    background-color: white;
+    padding-bottom: 0.5rem;
+    
+}
+:root {
+    --bool-lightgrey: #e8e8e8;
+}
+
+img {
+    margin: 1rem;
+}
+h1 {
+    margin-left: 5rem;
+    margin-top: -4.3rem;
+}
+
+main {
+    background-color: white;
+    margin-top: 5rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
