@@ -30,11 +30,68 @@ img {
 h1 {
     margin-left: 5rem;
     margin-top: -4.3rem;
+    font-style: initial;
 }
 
 main {
     background-color: var(--bool-white);
+    height: 3.19rem;
     margin-top: 5rem;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+#header {
+    padding-top: 1rem;
+    border-radius: 0.2rem;
+    
+}
+
+input{
+    border-radius: 0.2rem; 
+}
+
+.task {
+    background-color: var(--bool-blue1);
+    border-radius: 0.2rem; 
+    margin-left: 3rem; 
+}
+
+#main {
+    background-color: var(--bool-white);
+    margin-top: 1rem;
+}
+
+span{
+    margin-left: 0.5rem;
+    padding: 0.3rem;
+    font-size: 0.6rem;
+    border-radius: 0.5rem;
+    color: var(--bool-white);
+
+}
+
+.highlights1{
+    background-color: var(--bool-blue2);
+}
+.highlights2{
+    background-color: var(--bool-blue2);
+}
+.highlights3{
+    background-color: var(--bool-purple);
+}
+.highlights4{
+    background-color: var(--bool-green1);
+}
+.highlights5{
+    background-color: var(--bool-orange);
+}
+.highlights6{
+    background-color: var(--bool-pink);
+}
+.highlights7{
+    background-color: var(--bool-green2);
+}
+.highlights8{
+    background-color: var(--bool-blue2);
 }
